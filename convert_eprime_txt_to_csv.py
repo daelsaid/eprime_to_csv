@@ -11,7 +11,6 @@ import pandas
 import os
 from eprime_txt_to_csv import eprimetxt_todf, remove_unicode
 
-
 files=[f for f in os.listdir('.') if os.path.isfile(f)]
 data_dir = os.getcwd() #current directory
 
