@@ -49,3 +49,7 @@ def eprimetxt_todf(text_file, out_file):
     df.to_csv(out_file, index=False)
     print 'output made'
     return df
+
+
+
+#sub functions compiled and edited from https://github.com/tsalo/convert-eprime
